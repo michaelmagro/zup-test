@@ -5,4 +5,5 @@ Zup test for job
 npm install && npm start
 ```
 ## Usage
-Open in browser: http://localhost:3000 // username:admin password:admin
+Open in browser: http://localhost:3000
+username:admin password:admin
