@@ -1,0 +1,49 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.panel-heading {
+	background-image: linear-gradient(to left, #582865, #516);
+}
+
+.panel {
+	border: none;
+}
+
+.panel-title {
+	color: #fff;
+}
+
+.panel-body {
+	padding-top:30px;
+}
+
+.btn-sign {
+	border-color: #582865;
+	background-image: linear-gradient(to left, #582865, #516) !important;
+}
+#loginbox {
+	margin-top:50px;
+}
+
+.icon-close-login {
+	float: right; 
+	color: #fff; 
+	line-height: unset;
+}
+
+.login-data {
+	height: 40px;
+}
+
+.input-group {
+	margin-bottom: 25px;
+}
+
+.form-group {
+	margin-top:10px;
+}
+
+#lost-pass-href {
+	margin-left: 10px;
+}

@@ -1,0 +1,53 @@
+<div class="container" ng-controller="loginController">    
+        <div id="loginbox" class="mainbox col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">                    
+            <div class="panel panel-info" >
+                    <div class="panel-heading">
+                    	<span class="glyphicon glyphicon-remove icon-close-login" aria-hidden="true"></span>
+                        <div class="panel-title">
+                        	<b>Login Form</b>
+                        </div>
+                    </div>     
+
+                    <div class="panel-body" >
+
+                    <div class="alert alert-danger" role="alert" ng-show="!formValid">
+                        <b>Oh no!</b> user or password are not correct <b>):</b>
+                    </div>
+                            
+                        <form id="loginform" class="form-horizontal" role="form" action="/">
+
+                            <div class="input-group" ng-class="classError">
+                                <input id="login-username" type="text"
+                                       class="form-control login-data" 
+                                       name="username"
+                                       placeholder="Username"
+                                       ng-model="username">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+                            </div>
+                                
+                            <div class="input-group" ng-class="classError">                                        
+                                <input id="login-password" type="password"
+                                       class="form-control login-data" 
+                                       name="password" 
+                                       placeholder="Password" 
+                                       ng-model="password">
+                                <span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-12 controls">
+                                    <a class="btn btn-success btn-sign" type="button"
+                                            ng-click="submit()">Sign In</a> 
+                                    <a style="" href="#/" id="lost-pass-href">
+                                        Lost your password ?
+                                    </a>
+                                </div>
+                            </div>
+
+                        </form>  
+
+                    </div> 
+
+            </div>  
+        </div>
+</div>
