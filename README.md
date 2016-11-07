@@ -1,5 +1,3 @@
-<snippet>
-  <content><![CDATA[
 # Zup Test front-end
 Zup test for job
 ## Installation
